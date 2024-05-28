@@ -1,0 +1,142 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   border: border-box;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+body{
+    background-color: black
+}
+
+.nav{
+    height: 5rem;
+    background-color: rgb(255, 19, 8,0.9);
+}
+.nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #000000; 
+    margin: 17px 27px;
+}
+.nav p{
+    color: #ffffff;
+    white-space: none;
+    margin-top: 0.7rem;
+    margin-left: 22rem;
+}
+
+.images img{
+    height: 500px;
+    max-width: 100%;
+}
+.text{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 34%;
+}
+.text img{
+    max-height: 6rem;
+    max-width: 30rem;
+}
+
+.franchise{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.places{
+    height: 200px;
+    width: 312px;
+    margin: 1rem;
+    background-size: cover;
+    border: 2px double rgb(219, 213, 215);
+    transition: transform 0.3s ease-in-out;
+}
+.places:hover {
+  transform: scale(1.4);
+}
+.places {
+   color: #ffffff;
+   font-style:italic;
+}
+
+.events{
+    border: 2px double rgb(219, 213, 215);
+    height: 500px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.content{
+    transition: transform 0.2s ease;
+    max-width: 90%;
+}
+.content:hover{
+    transform:scale(1.08) ;
+}
+#btn{
+    margin-top: 4rem;
+    height: 2rem;
+    width: 8rem;
+    border:2px solid rgb(232, 223, 225) ;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.party img{
+    height: 80vh;
+    max-width: 90%;
+    border: 2px solid rgb(219, 213, 215);
+    transition: transform 0.2s ease;
+}
+.party img:hover{
+    transform:scaleY(1.06) ;
+}
+
+.markets{
+    border: 2px double rgb(219, 213, 215);
+    height: 500px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+.glass img{
+    height: 80vh;
+    max-width: 90%;
+    border: 2px solid rgb(219, 213, 215);
+    transition: transform 0.2s ease;
+}
+.glass img:hover{
+    transform:scaleY(1.06) ;
+}
+
+.hehe{
+    margin-top: 6rem;
+    text-align: center;
+}
+.header{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 90%; 
+}
+.header a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    gap: 2rem; 
+    margin-left: 100px;  
+}
+.header a:hover{
+    color: red;
+}
